@@ -7,6 +7,7 @@
 
 #include <avr/io.h>
 #include <avr/interrupt.h>
+#include "./SPILib.h"
 
 #define MASTER 0x00
 #define SLAVE 0xff
